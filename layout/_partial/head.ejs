@@ -1,0 +1,25 @@
+<head>
+  <!-- so meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- 这个 hexo helper 是用来设置转发链接显示格式的  -->
+  <%- open_graph({
+        image:          thumbnail(page),
+        fb_app_id:      theme.open_graph.fb_app_id,
+        fb_admins:      theme.open_graph.fb_admins,
+        twitter_id:     theme.open_graph.twitter_id,
+        google_plus:    theme.open_graph.google_plus,
+    }) %>
+  <!-- favicon 需要在主题文件夹下创建一个 favicon文件夹  并放置favicon图标-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <!-- title scripts文件夹内自定义的 hexo helper ，hexo初始化时候会自动加载这个文件夹的js文件 -->
+  <title><%= page_title() %></title>
+  <!-- styles 导入 theme/source/css/style.styl 样式 -->
+  <%- css('css/style') %>
+  <!-- rss -->
+</head>
