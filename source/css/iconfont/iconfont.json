@@ -1,0 +1,114 @@
+{
+  "id": "1445449",
+  "name": "wxxcx",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "129040",
+      "name": "link",
+      "font_class": "link",
+      "unicode": "e7e9",
+      "unicode_decimal": 59369
+    },
+    {
+      "icon_id": "431977",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e7c1",
+      "unicode_decimal": 59329
+    },
+    {
+      "icon_id": "970721",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1238657",
+      "name": "social-weibo",
+      "font_class": "social-weibo",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1238894",
+      "name": "social-wechat",
+      "font_class": "social-wechat",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1388138",
+      "name": "tag",
+      "font_class": "tag",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "1487394",
+      "name": "category",
+      "font_class": "category",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3876489",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "5327318",
+      "name": "rss",
+      "font_class": "rss",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "5810211",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e7ee",
+      "unicode_decimal": 59374
+    },
+    {
+      "icon_id": "7275099",
+      "name": "email (Filled)",
+      "font_class": "emailFilled",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "9307591",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "11215266",
+      "name": "next",
+      "font_class": "next1",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    },
+    {
+      "icon_id": "11770096",
+      "name": "share",
+      "font_class": "share",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "11770188",
+      "name": "about",
+      "font_class": "about",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    }
+  ]
+}

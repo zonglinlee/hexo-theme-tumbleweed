@@ -1,0 +1,22 @@
+@import "normalize.css";
+@import "iconfont/iconfont.css";
+.index-content {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.index-content .author {
+  text-align: center;
+}
+.index-content .author-detail {
+  author-detail: center;
+}
+.index-content .author-contact .author-contact-detail:hover {
+  background: linear-gradient(45deg, #fc466b 0%, #3f5efb 100%);
+}
+li {
+  list-style: none;
+}
+body {
+  font-size: 16px;
+}
