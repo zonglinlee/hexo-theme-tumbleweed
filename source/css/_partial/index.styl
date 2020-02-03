@@ -1,22 +1,52 @@
+#index{
 
-.index-content{
-    // background: linear-gradient(45deg, #FC466B 0%, #3F5EFB 100%);
+  // background: linear-gradient(45deg, #FC466B 0%, #3F5EFB 100%);
+  margin-top:3em;
+  .index-content{
+
     width:100%;
+    height :calc(100vh - 7rem);
     max-width :980px;
     margin: 0 auto;
     .author{
+      font-size: 2rem;
         text-align:center;
       }
     .author-detail{
-        author-detail:center;
+      margin-top: 3em;
+        text-align: center;
+        font-size: 1.1rem;
+        height:1.1rem;
       }
       .author-contact{
+        width:30%;
+        margin: 0 auto;
+        margin-top:3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         .author-contact-detail{
-          
+            list-style: none;
+            transition: transform .3s ease;
+            &:hover{
+                transform:scale(1.4);
+              }
+            a{
+              text-decoration: none;   
+              cursor: pointer;   
+              transition: .3s ease;
+              color:#222     
+            }
+            a:hover{
+              color:#f56942;
+
+            }
+            a i {
+              font-size:3rem;
+            }
           }
-        .author-contact-detail:hover{
-            background: linear-gradient(45deg, #FC466B 0%, #3F5EFB 100%);
-          }
+
         }
 
   }
+}

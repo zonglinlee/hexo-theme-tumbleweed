@@ -69,11 +69,11 @@
       "unicode_decimal": 59067
     },
     {
-      "icon_id": "5810211",
-      "name": "home",
-      "font_class": "home",
-      "unicode": "e7ee",
-      "unicode_decimal": 59374
+      "icon_id": "7239960",
+      "name": "zhihu",
+      "font_class": "zhihu",
+      "unicode": "e765",
+      "unicode_decimal": 59237
     },
     {
       "icon_id": "7275099",
@@ -81,6 +81,13 @@
       "font_class": "emailFilled",
       "unicode": "e63c",
       "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "8879771",
+      "name": "home",
+      "font_class": "home1",
+      "unicode": "e609",
+      "unicode_decimal": 58889
     },
     {
       "icon_id": "9307591",

@@ -1,7 +1,32 @@
-<div class="index-content">
-  <h2 class="author">Hi,I am <%- config.author %> ! </h2>
-  <p class="ahthor-detail"><%- config.author_detail %> </p>
-  <ul class="author-contact">
-    <li class="author-contact-detail"><i class="iconfont icon-github"></i></li>
-  </ul>
-</div>
+<main id="index">
+  <div class="index-content">
+    <h2 class="author">Hi, I am <%- config.author %> ! </h2>
+    <p class="author-detail" id="typewriter">&nbsp;</p>
+    <ul class="author-contact">
+      <li class="author-contact-detail"><a href="<%- theme.social_links.github %>"><i
+            class="iconfont icon-github"></i></a></i></li>
+      <li class="author-contact-detail"><a href="mailto:<%- theme.social_links.mail %>"><i
+            class="iconfont icon-emailFilled"></i></a></i></li>
+      <li class="author-contact-detail"><a href="<%- theme.social_links.zhihu %>"><i
+            class="iconfont icon-zhihu"></i></a></i></li>
+    </ul>
+  </div>
+</main>
+<script>
+  let i = 0;
+  let txt = "<%- config.author_detail %>";
+  let speed = 100; 
+  let detail = document.getElementById("typewriter")
+  function typeWriter() {
+    if (i < txt.length) {
+      detail.innerHTML += txt.charAt(i);
+      i++;  
+      setTimeout(typeWriter, speed);    
+    }else{
+      detail.innerHTML = '';
+      i = 0
+      setTimeout(typeWriter, 130);
+    }
+  }
+  typeWriter()
+</script>
