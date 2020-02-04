@@ -1,0 +1,133 @@
+@import "normalize.css";
+@import "iconfont/iconfont.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font-size: 16px;
+}
+#index {
+  margin-top: 3em;
+}
+#index .index-content {
+  width: 100%;
+  height: calc(100vh - 7rem);
+  max-width: 980px;
+  margin: 0 auto;
+}
+#index .index-content .author {
+  font-size: 2rem;
+  text-align: center;
+}
+#index .index-content .author-detail {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 1.1rem;
+  height: 1.1rem;
+}
+#index .index-content .author-contact {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#index .index-content .author-contact .author-contact-detail {
+  list-style: none;
+  transition: transform 0.3s ease;
+}
+#index .index-content .author-contact .author-contact-detail:hover {
+  transform: scale(1.4);
+}
+#index .index-content .author-contact .author-contact-detail a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: #222;
+}
+#index .index-content .author-contact .author-contact-detail a:hover {
+  color: #f56942;
+}
+#index .index-content .author-contact .author-contact-detail a i {
+  font-size: 3rem;
+}
+#header {
+  position: relative;
+  padding: 0 1em;
+  height: 3.5rem;
+  background: #333;
+  color: #fff;
+}
+#header .header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 14%;
+  margin: 0 auto;
+}
+#header .header-left div {
+  width: 3rem;
+  height: 3rem;
+}
+#header .header-left div img {
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+  filter: invert(100%) contrast(200%);
+}
+#header .header-left h1 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+#header .header-right {
+  display: none;
+  width: 33%;
+}
+#header .header-right .header-right-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+#header .header-right .header-right-nav .icon a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+#header .header-right .header-right-nav .icon a i {
+  font-size: 1rem;
+}
+#header .header-right .header-right-nav .icon:hover {
+  border-bottom: solid 1px #ffa500;
+}
+#header .curtain-click {
+  display: block;
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 0;
+  right: 0;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+}
+@meida screen and(min-width );
+#footer {
+  position: fixed;
+  height: 3.5rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#footer .footer-copyright {
+  background: #333;
+  text-align: center;
+  color: #fff;
+  line-height: 3.5rem;
+}

@@ -1,16 +1,18 @@
 #header{
-    display:flex;
+    position:relative;
+    //display:flex;
     padding: 0 1em;
     height:3.5rem;
-    justify-content: space-between;
-    align-items: center;
+    //justify-content: space-between;
+    //align-items: center;
     background:#333;
     color:#fff;
     .header-left{
-      width:12%;
       display:flex;
       justify-content: space-between;
       align-items: center;
+      width:14%;
+      margin:0 auto;
       div{
         width:3rem;
         height:3rem;
@@ -22,12 +24,13 @@
         }
       }
       h1{
-        font-size:1.4rem;
+        font-size:1.2rem;
         font-weight: normal;
       }
     }
     .header-right{
-      width:30%;
+      display:none;
+      width:33%;
       .header-right-nav{
         list-style: none;
         display:flex;
@@ -41,7 +44,7 @@
             color:white;
             cursor :pointer
             i{
-              font-size: 1.2rem;
+              font-size: 1rem;
             }
           } 
           &:hover{
@@ -51,5 +54,15 @@
 
       }
     }
-
-  }
+    .curtain-click{
+      display:block;
+      position:absolute;
+      width:3rem;
+      height:3rem;
+      top:0;
+      right:0;
+      font-size:2.4rem;
+      line-height: 3.5rem;
+    }
+}
+@meida screen and(min-width )
