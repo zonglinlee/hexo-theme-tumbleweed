@@ -12,21 +12,3 @@
     </ul>
   </div>
 </main>
-<script>
-  let i = 0;
-  let txt = "<%- config.author_detail %>";
-  let speed = 100; 
-  let detail = document.getElementById("typewriter")
-  function typeWriter() {
-    if (i < txt.length) {
-      detail.innerHTML += txt.charAt(i);
-      i++;  
-      setTimeout(typeWriter, speed);    
-    }else{
-      detail.innerHTML = '';
-      i = 0
-      setTimeout(typeWriter, 130);
-    }
-  }
-  typeWriter()
-</script>

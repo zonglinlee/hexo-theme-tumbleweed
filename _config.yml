@@ -151,5 +151,5 @@ gravatar:
 # clickEffects
 click_effects:
   love_heart: false
-  social_value: true
+  social_value: false
 
